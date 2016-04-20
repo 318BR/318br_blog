@@ -1,0 +1,20 @@
+<footer class="post-info">
+<span class="label">Data</span>
+<abbr class="published" title="{{ article.locale_date }}">
+    {{ article.locale_date }}
+</abbr>
+{% if article.author %}
+    <span class="label">Por</span>
+    <a href="#">{{ article.author }}</a>
+{% endif %}
+<span class="label">Categoria</span>
+<a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a>
+
+{% if article.tags %}
+    <span class="label">Tags</span>
+    {% for tag in article.tags|sort %}
+	    <a href="{{ SITEURL }}/{{ tag.url }}">#{{ tag }}</a>
+    {% endfor %}
+{% endif %}
+
+</footer><!-- /.post-info -->
