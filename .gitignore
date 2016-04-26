@@ -4,3 +4,4 @@
 output/
 README.*
 .DS_Store
+cache/

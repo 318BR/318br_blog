@@ -45,7 +45,7 @@ STATIC_PATHS = ['robots.txt', '.dotfile', 'img']
 LINKS = (('atcasanova', 'https://github.com/atcasanova'),
          ('deadcow', 'https://github.com/deadc'),
          ('fallc0nn', 'https://github.com/fallc0nn'),
-         ('kirah', 'https://'),
+         ('kirah', 'https://github.com/kirahh'),
          ('Odysseus', 'https://github.com/ualvesdias'),)
 
 # Social
@@ -57,5 +57,3 @@ DEFAULT_PAGINATION = 5
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
-
-#Teste fallc0nn2
