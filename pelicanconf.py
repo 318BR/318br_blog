@@ -43,10 +43,10 @@ STATIC_PATHS = ['robots.txt', '.dotfile', 'img']
 
 # Links
 LINKS = (('atcasanova', 'https://github.com/atcasanova'),
-         ('deadcow', 'https://'),
+         ('deadcow', 'https://github.com/deadc'),
          ('fallc0nn', 'https://github.com/fallc0nn'),
          ('kirah', 'https://'),
-         ('Odysseus', 'https://'),)
+         ('Odysseus', 'https://github.com/ualvesdias'),)
 
 # Social
 SOCIAL = (('Asciinema (fallc0nn)', 'https://asciinema.org/~fallc0nn'),
