@@ -278,8 +278,8 @@ Nesse caso, temos como retorno uma chave privada que deve ser usada para acessar
 Tentei salvar a key numa variavel e usar como file descriptor, mas pelo visto o sistema não permite. A solução, então, é criar no /tmp/.
 
 ```bash
-mkdir -p /tmp/n00bsb/
-cd /tmp/n00bsb/
+mkdir -p /tmp/318br/
+cd /tmp/318br/
 vi key
 #(cole o conteúdo da key no arquivo)
 ssh -i key bandit17@localhost
@@ -402,10 +402,10 @@ Então é simples!
 
 ```bash
 cd /var/spool/bandit24
-echo "cat /etc/bandit_pass/bandit24 > /tmp/n00bsb.bandit24" > script.sh
+echo "cat /etc/bandit_pass/bandit24 > /tmp/318br.bandit24" > script.sh
 chmod +x script.sh
 # agora basta esperar virar para o próximo minuto e
-cat /tmp/n00bsb.bandit24
+cat /tmp/318br.bandit24
 UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ
 ```
 -----------------------

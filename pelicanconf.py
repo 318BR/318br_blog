@@ -8,9 +8,9 @@ DEFAULT_LANG = 'pt_BR'
 LOCALE='pt_BR'
 TIMEZONE = 'America/Sao_Paulo'
 
-AUTHOR = u'n00bsbot'
-SITENAME = u'n00bsb ctf-team'
-SITEURL = 'http://n00bsb.github.io'
+AUTHOR = u'318bot'
+SITENAME = u'318br ctf-team'
+SITEURL = 'http://318br.github.io'
 
 PATH = 'content'
 
@@ -36,7 +36,7 @@ TAGS_SAVE_AS = ''
 AUTHOR_SAVE_AS = ''
 AUTHORS_SAVE_AS = ''
 
-THEME = 'themes/n00bsb'
+THEME = 'themes/318br'
 
 # Static paths will be copied without parsing their contents
 STATIC_PATHS = ['robots.txt', '.dotfile', 'img']
@@ -51,7 +51,7 @@ LINKS = (('atcasanova', 'https://github.com/atcasanova'),
 # Social
 SOCIAL = (('Asciinema (fallc0nn)', 'https://asciinema.org/~fallc0nn'),
           ('CTF-Time', 'https://ctftime.org/team/24500'),
-          ('Github', 'https://github.com/n00bsb'),)
+          ('Github', 'https://github.com/318br'),)
 
 DEFAULT_PAGINATION = 5
 

